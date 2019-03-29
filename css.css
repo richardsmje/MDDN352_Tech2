@@ -1,0 +1,71 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background: #E44848;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 30px;
+    color: #ffffff;
+}
+
+h2{
+   font-size: 10em;
+   color: black; 
+}
+
+
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: repeat(2, 20em);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+
+hr {
+width: auto;
+height: 3px;
+margin-left: 40px;
+margin-right: 40px;
+background-color: black;
+border: 0 none;
+margin-top: 10px;
+margin-bottom:10px;
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+
+.container div {
+    padding: 50px;  
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    
+}
+
+.container div{
+    //the child
+    padding: 10px;
+    margin: 2px;
+    flex: 1 5 20em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+}
+
+.boxen{
+    display: flex;
+    flex-direction: column;
+}
